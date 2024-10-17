@@ -13,4 +13,9 @@ public class Animal {
         System.out.println("Munch Munch");
     }
 
+//    Går ej att anropa på super då den är private i en subklass
+    private void doSomething() {
+        System.out.println("I am an animal");
+    }
+
 }
