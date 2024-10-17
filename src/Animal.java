@@ -1,10 +1,9 @@
+//Superclass -> Basklass
 public class Animal {
     int age;
     String name;
 
-    public Animal() {
-
-    }
+    public Animal() {}
 
     public void makeNoise() {
         System.out.println("Hello, i am an animal");
